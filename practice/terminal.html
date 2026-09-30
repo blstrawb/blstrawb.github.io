@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Guide to Vim</title>
+	<script src='validate.js'></script>
+	<style>
+		body { 
+		background-color:#98FBCB;
+		color:#185D47;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Basic Guide to the Terminal and Vim</h1>
+	</header>
+	<main>
+
+		<section>
+			<h2>Introduction</h2>
+			<p>
+      In this simple handbook, I will teach you some important tips for</br>
+      making a website. You will learn how to navigate the terminal</br>
+      and some crucial vim commands that you will continue to utilize</br>
+      throughout the rest of your fruitful website-producing life.
+      </p>
+		</section>
+
+    <section>
+      <h2>What you will absorb</h2>
+      <ol>
+        <li>How to move around your computer through the terminal</li>
+        <li>How to use Vim</li>
+          <ul>
+            <li>Key commands you absolutely need</li>
+            <li>Moving around in the editor</li>
+            <li>Making vim your own</li>
+          </ul>
+        <li>How to apply what you've learned while coding websites</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Moving around the terminal: <code>cd</code> and <code>ls</code></h2>
+      <p>The terminal is a built-in app that allows you to navigate and</br>
+      control everything about your computer through commands. To get</br>
+      around, you type <code>cd <i>where you want to go</i></code>.</br>
+      "Where you want to go" will be replaced with, you guessed it, where</br>
+      you want to go. One problem, though: you don't know where you even</br>
+      <i>can</i> go. That's where <code>ls</code> comes in. Just by typing</br>
+      <code>ls</code>, the terminal will show you the files and</br>
+      directories of where you currently are. Try using <code>ls</code>,</br>
+      and you'll see something like this:</p> 
+      <img src="command example-ls.tiff" alt="The ls command in use">
+      <p> From here, I can use <code>cd</code> followed by anything listed</br>
+      and the terminal will take me there.</br>
+      Practice using the <code>cd</code> and <code>ls</code> command by</br>
+      moving all around your computer. If you ever get lost, type </br>
+      <code>pwd</code>, and the terminal will output your current</br>
+      location. In addition, you can use <code>cd ..</code> to go back</br>
+      one directory or <code>cd</code> (nothing after) to go back to</br>
+      home, where you started!</br></p>
+      A great place for you to practice cd, ls, and more:</br>
+      <a href="https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html">
+        Terminus, a web game by MIT students</a>
+    </section>
+
+    <section>
+      <h2>Fundamentals of Vim</h2>
+        <h3>Key commands</h3>
+        <p>
+        Vim is a readily available text editor that allows you to do</br>
+        many amazing things. For now, we will just use it to create a</br>
+        simple HTML document. Type <code>cd</code> in the terminal to</br>
+        return back to home. We'll create the file here, and you can</br>
+        move it around later to your liking by using <code>mv</code>.</br>
+        Input <code>vim practice.html</code>. It will bring you into a</br>
+        new interface with only a line of tildes on the left. Before</br>
+        you do anything else, press <kbd>i</kbd> to enter insert mode and</br>
+        copy and paste these lines into the file:
+        </p>
+        <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;
+        </code></pre>
+        <p>
+        These are critical aspects of your HTML file. Without them, your</br>
+        file would cease to function at all.</p>
+        <h3>How to navigate Vim</h3>
+        <p>To move around your file, use: 
+        <ul>
+          <li><kbd>h</kbd> for <i>left</i></li>
+          <li><kbd>j</kbd> for <i>down</i></li> 
+          <li><kbd>k</kbd> for <i>up</i></li>
+          <li><kbd>l</kbd> for <i>right</i></li>
+        </ul>
+          Or just the arrow keys. Either works; just choose whichever one</br>
+          tickles your fancy.</br></p>
+          To exit insert mode, press the <strong>escape</strong></br>
+          key (<kbd>esc</kbd>). You are now in normal mode.</br>
+          To save, ensure you are in normal mode. Once you are,</br>
+          type <kbd>:w</kbd> and press <kbd>enter</kbd>.</br>
+          <strong>NOTE:</strong> This will overwrite your past save, so</br>
+          be careful!</br>
+          To quit vim and return to the terminal, input <kbd>:q</kbd>.</br>
+          If you have not saved, you may recieve this message:</br>
+          <samp>E37: No write since last change (add ! to override)</samp></br>
+          If your intention <i>is</i> to leave without saving, use</br> 
+          <kbd>:q!</kbd> instead. To be continued!</p>
+          <h3>Personalize the interface</h3>
+          <p>Lorem ipsum dolor sit amet...</p>
+    </section>
+
+    <section>
+      <h2> The terminal and Vim while designing websites</h2>
+        <p>Lorem ipsum dolor sit amet...</p>
+    </section>
+	</main>
+  <footer>
+    <p>Written by blstrawb on 09.28.26 and 09.29.26</p>
+  </footer>
+</body>
+</html>
