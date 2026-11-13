@@ -6,14 +6,16 @@
       background-position: center;
       background-size:cover;
       background-attachment: fixed;
-	  	background-color:rebeccapurple; 
+	  	background-color:rebeccapurple; } 
 
       /* Text */
-        color: #CCCCFF; /* Periwinkle: #CCCCFF */
+      body {
+      color: #CCCCFF; /* Periwinkle: #CCCCFF */ }
 
       /* Cursor */
+      html {  
       cursor: url('images/CursorN.png'), auto; }
-      a:hover, button:hover, .interactive:hover {
+      a, button {
         cursor: url('images/CursorC.png'), pointer; }
 
       /* Links */
