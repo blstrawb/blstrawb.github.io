@@ -1,0 +1,37 @@
+			/* Background */
+      body {
+      background-image:url('images/ID-PRJellyBG_Blurred20.jpg');
+      /*https://pixabay.com/photos/jellyfish-wallpaper-jelly-fish-4949516*/
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size:cover;
+      background-attachment: fixed;
+	  	background-color:rebeccapurple; 
+
+      /* Text */
+        color: #CCCCFF; /* Periwinkle: #CCCCFF */
+
+      /* Cursor */
+      cursor: url('images/CursorN.png'), auto; }
+      a:hover, button:hover, .interactive:hover {
+        cursor: url('images/CursorC.png'), pointer; }
+
+      /* Links */
+     a:link {
+      color: #E39FF6;
+      text-decoration:none;
+      }
+     a:visited {
+       color: #b77fc7;
+      }
+     a:hover {
+       color: #885f94;
+      }
+
+     /* Classes + IDs */
+     .center-heading {
+       text-align: center; }
+
+       .center-text {
+         text-align: center }
+
