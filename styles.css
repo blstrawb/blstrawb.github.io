@@ -13,10 +13,10 @@
       color: #CCCCFF; /* Periwinkle: #CCCCFF */ }
 
       /* Cursor */
-      html {  
-      cursor: url('images/CursorN.png'), auto; }
+      body {  
+      cursor: url('images/cursor.cur'), auto; }
       a, button {
-        cursor: url('images/CursorC.png'), pointer; }
+        cursor: url('images/cursor2.cur'), pointer; }
 
       /* Links */
      a:link {
