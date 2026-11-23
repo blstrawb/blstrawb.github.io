@@ -20,6 +20,12 @@ body { /* Gradient */
   background-attachment:fixed;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 a:link {
   font-weight:bold;
   text-decoration:underline;
@@ -49,8 +55,13 @@ body { /* Cursor */
 
 }
 
-#skip-link { /* ??? */
-  text-align: center;
+#branding {
+  display:flex;
+  justify-content:center;
+}
+
+#skip-link {
+  display:inline-block;
 
 }
 
@@ -62,7 +73,7 @@ body { /* Cursor */
 
  ul li a {
    display:block;
-   padding: 14px 16px;
+   margin:14px 16px;
  }
 
 /* ::before = displays before */
