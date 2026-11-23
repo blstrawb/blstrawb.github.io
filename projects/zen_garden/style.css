@@ -9,10 +9,10 @@
 @import url(https://fonts.bunny.net/css?family=abril-fatface:400);
 
 body {
-background-color: lavender;
-font-family: 'Abril Fatface', display;
-font-size: 13px;
-color: #fff;
+  background-color: lavender;
+  font-family: 'Abril Fatface', display;
+  font-size: 13px;
+  color: #fff;
 }
 
 body { /* Gradient */
@@ -20,15 +20,28 @@ body { /* Gradient */
   background-attachment:fixed;
 }
 
-a {
-color: #fff;
-text-decoration:
+a:link {
+  font-weight:bold;
+  text-decoration:underline;
+  color: #A7D3F6;
+
 }
 
-body {  
-cursor: url('images/cursor.cur'), auto; }
-a, button {
-cursor: url('images/cursor2.cur'), pointer; }
+a:visited {
+  font-weight:bold;
+  text-decoration:underline;
+  color: #D1E9FC;
+}
+
+a:hover, a:active {
+text-decoration:underline;
+color:#fff;
+}
+
+body { /* Cursor */ 
+  cursor: url('images/cursor.cur'), auto; }
+  a, button {
+  cursor: url('images/cursor2.cur'), pointer; }
 
 #disclaimer {
   text-align: center;
