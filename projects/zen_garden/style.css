@@ -1,7 +1,55 @@
 /*
   ITD110 Zen Garden Project
-  Your name:
-  Your design concept (one sentence):
+  Your name: Ari Hamm
+  Your design concept (one sentence): My design is inspired by meteorology. 
 
   All of your CSS goes in this file.
 */
+
+@import url(https://fonts.bunny.net/css?family=abril-fatface:400);
+
+body {
+background-color: lavender;
+font-family: 'Abril Fatface', display;
+font-size: 13px;
+color: #fff;
+}
+
+body { /* Gradient */
+  background: linear-gradient(90deg, #8ea4b2, #91a3b3);
+  background-attachment:fixed;
+}
+
+a {
+color: #fff;
+text-decoration:
+}
+
+body {  
+cursor: url('images/cursor.cur'), auto; }
+a, button {
+cursor: url('images/cursor2.cur'), pointer; }
+
+#disclaimer {
+  text-align: center;
+  /* Background image */
+
+}
+
+#skip-link { /* ??? */
+  text-align: center;
+
+}
+
+#utility-nav ul {
+ list-style-type: none;
+ display: flex;
+ justify-content:center;
+ }
+
+ ul li a {
+   display:block;
+   padding: 14px 16px;
+ }
+
+/* ::before = displays before */
